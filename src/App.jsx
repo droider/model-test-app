@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 
 const client = new OpenAI({
   baseURL: 'https://api.scaleway.ai/86c7c7a3-86f0-4c94-a060-cc35a156bd3f/v1',
-  apiKey: '9f182a22-771b-4a4f-872e-a73dd03de586',
+  apiKey: import.meta.env.VITE_SCW_API_KEY,
   dangerouslyAllowBrowser: true
 });
 
